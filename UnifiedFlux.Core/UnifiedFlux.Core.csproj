@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    
+    <PackageId>UnifiedFlux.Core</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>hszeng</Authors>
+    <Company>hszeng</Company>
+    <Description>A lightweight, in-process mediator pattern implementation for .NET.</Description>
+    <RepositoryUrl>https://github.com/hszeng/UnifiedFlux</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>  
+
+</Project>
